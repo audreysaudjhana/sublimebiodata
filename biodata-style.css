@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #581845;
+	box-shadow: 2px 2px 2px rgba(0,0,0,8);
+	border: 1px solid black;
+	height: 50px;
+	padding-right: 10px;
+	position: fixed;
+	z-index: 2; 
+	width: 100%
+}
+
+li{
+	display: inline-block;
+	color: #FFF;
+}
+
+li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	float: left;
+}
+
+li a:hover:not(.active){
+	background-color: #FFC305;
+	border-radius: 10%;
+}
+
+.active{
+	background-color: #FFC305;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+.content{
+	padding: 25px 25px;
+}
+
+h2{
+	padding-right: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+img{
+	max-width: 20%;
+	height: auto;
+	position: relative;
+	box-shadow: 2px 2px 2px rgba(0,0,0,8);
+	border-radius: 50%;
+	border: 5px;
+	border-style: solid;
+	border-color: #581845;
+	float: left;
+}
+
+#audrey, #hery, #jevin, #jhon, #welliam{
+	display: inline-block;
+	margin: 10px;
+}
+
+h2, p{
+	padding: 1% 22%;
+	text-align: justify;
+}
+
+.footer{
+	color: #FFC305;
+	background-color: #900C3F;
+	text-align: center;
+	padding: 10px;
+}
